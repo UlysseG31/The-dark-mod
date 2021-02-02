@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VRTfwGS9EeuczYMPqhlYvw" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_xWUWwGTKEeuczYMPqhlYvw" name="idActor" visibility="public">
+    <ownedComment xmi:id="_1iHdQGTUEeuczYMPqhlYvw" annotatedElement="_xWUWwGTKEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Player.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_9iOyoGTNEeuczYMPqhlYvw" name="noclip" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9iPZsGTNEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9iPZsWTNEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CtkPEGTOEeuczYMPqhlYvw" name="godmode" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CtkPEWTOEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CtkPEmTOEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LFVyUGTOEeuczYMPqhlYvw" name="oldFlags" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LFVyUWTOEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LFVyUmTOEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Os1dcGTOEeuczYMPqhlYvw" name="oldButtons" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Os1dcWTOEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Os1dcmTOEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_RBVPoGTOEeuczYMPqhlYvw" name="buttonMask" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RBVPoWTOEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RBVPomTOEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_rPRjMGTOEeuczYMPqhlYvw" name="weapon_fists" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rPSKQGTOEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rPSKQWTOEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_TxuToGTOEeuczYMPqhlYvw" name="spawnAnglesSet"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9ctg0GTKEeuczYMPqhlYvw" name="idPlayer" visibility="public">
+    <ownedComment xmi:id="_0hKWkGTUEeuczYMPqhlYvw" annotatedElement="_9ctg0GTKEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Player.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_ij5nIGTREeuczYMPqhlYvw" name="idActor" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ij5nIWTREeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ij6OMGTREeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NLQdUGTLEeuczYMPqhlYvw" name="idPlayerView" visibility="public">
+    <ownedComment xmi:id="_74SVIGTUEeuczYMPqhlYvw" annotatedElement="_NLQdUGTLEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/PlayerView.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_2LJ6kGTREeuczYMPqhlYvw" name="SingleView" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2LKhoGTREeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2LKhoWTREeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_5LeQ8GTREeuczYMPqhlYvw" name="DoubleVision" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5Le4AGTREeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5Le4AWTREeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_7J8v0GTREeuczYMPqhlYvw" name="BerserkVision" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7J8v0WTREeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7J8v0mTREeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9JXC0GTREeuczYMPqhlYvw" name="InfluenceVision" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9JXC0WTREeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9JXC0mTREeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__3rqQGTREeuczYMPqhlYvw" name="ScreenFade" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__3rqQWTREeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__3rqQmTREeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_YGhM0GTSEeuczYMPqhlYvw" name="CalculateShake" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YGhM0WTSEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YGhM0mTSEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ayJFkGTSEeuczYMPqhlYvw" name="WeaponFireFeedback" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ayJsoGTSEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ayJsoWTSEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jDQ5IGTQEeuczYMPqhlYvw" memberEnd="_jDQ5IWTQEeuczYMPqhlYvw _jDRgMmTQEeuczYMPqhlYvw" navigableOwnedEnd="_jDRgMmTQEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_jDQ5IWTQEeuczYMPqhlYvw" name="idActors" type="_xWUWwGTKEeuczYMPqhlYvw" association="_jDQ5IGTQEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDRgMGTQEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDRgMWTQEeuczYMPqhlYvw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_jDRgMmTQEeuczYMPqhlYvw" name="idPlayers" type="_9ctg0GTKEeuczYMPqhlYvw" aggregation="composite" association="_jDQ5IGTQEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jDSHQGTQEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jDSHQWTQEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jZ8TwGTQEeuczYMPqhlYvw" memberEnd="_jZ8TwWTQEeuczYMPqhlYvw _jZ8TxGTQEeuczYMPqhlYvw" navigableOwnedEnd="_jZ8TxGTQEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_jZ8TwWTQEeuczYMPqhlYvw" name="idPlayerViews" type="_NLQdUGTLEeuczYMPqhlYvw" association="_jZ8TwGTQEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jZ8TwmTQEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jZ8Tw2TQEeuczYMPqhlYvw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_jZ8TxGTQEeuczYMPqhlYvw" name="idActors" type="_xWUWwGTKEeuczYMPqhlYvw" aggregation="composite" association="_jZ8TwGTQEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jZ860GTQEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jZ860WTQEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qa19wGTWEeuczYMPqhlYvw" name="dnImageWrapper" visibility="private">
+    <ownedComment xmi:id="_oTATcGTbEeuczYMPqhlYvw" annotatedElement="_Qa19wGTWEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/PlayerView.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_dwaQsGTWEeuczYMPqhlYvw" name="m_strImage" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dwaQsWTWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dwaQsmTWEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_hJPNsGTWEeuczYMPqhlYvw" name="m_matImage" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hJPNsWTWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hJPNsmTWEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RyUHAGTWEeuczYMPqhlYvw" memberEnd="_RyUHAWTWEeuczYMPqhlYvw _RyUuEmTWEeuczYMPqhlYvw" navigableOwnedEnd="_RyUuEmTWEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_RyUHAWTWEeuczYMPqhlYvw" name="dnImageWrappers" type="_Qa19wGTWEeuczYMPqhlYvw" association="_RyUHAGTWEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RyUuEGTWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RyUuEWTWEeuczYMPqhlYvw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_RyUuEmTWEeuczYMPqhlYvw" name="idPlayerViews" type="_NLQdUGTLEeuczYMPqhlYvw" aggregation="composite" association="_RyUHAGTWEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RyUuE2TWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RyUuFGTWEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yZoXcGTWEeuczYMPqhlYvw" name="dnPostProcessManager" visibility="private">
+    <ownedComment xmi:id="_nWUBsGTbEeuczYMPqhlYvw" annotatedElement="_yZoXcGTWEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/PlayerView.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_-Cep4GTWEeuczYMPqhlYvw" name="Initialize" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Cep4WTWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Cep4mTWEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_AB8AMGTXEeuczYMPqhlYvw" name="Update" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AB8nQGTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AB8nQWTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_E27ZMGTXEeuczYMPqhlYvw" name="UpdateBackBufferParameters" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E27ZMWTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E27ZMmTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_I06RsGTXEeuczYMPqhlYvw" name="RenderDebugTextures" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I064wGTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I064wWTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LdF04GTXEeuczYMPqhlYvw" name="UpdateCookedData" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LdF04WTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LdGb8GTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_VPdt4GTXEeuczYMPqhlYvw" name="UpdateInteractionShader" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VPdt4WTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VPdt4mTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Y7IHUGTXEeuczYMPqhlYvw" name="Hook_BufferCommandText" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y7IHUWTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y7IHUmTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_a4qLAGTXEeuczYMPqhlYvw" name="OnImageAnisotropyChanged" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a4qLAWTXEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a4qyEGTXEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0LBckGTWEeuczYMPqhlYvw" memberEnd="_0LBckWTWEeuczYMPqhlYvw _0LCDomTWEeuczYMPqhlYvw" navigableOwnedEnd="_0LCDomTWEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_0LBckWTWEeuczYMPqhlYvw" name="dnPostProcessManagers" type="_yZoXcGTWEeuczYMPqhlYvw" association="_0LBckGTWEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0LCDoGTWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0LCDoWTWEeuczYMPqhlYvw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_0LCDomTWEeuczYMPqhlYvw" name="idPlayerViews" type="_NLQdUGTLEeuczYMPqhlYvw" aggregation="composite" association="_0LBckGTWEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0LCDo2TWEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0LCDpGTWEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1zxRIGTYEeuczYMPqhlYvw" name="ButtonStateTracker" visibility="public">
+    <ownedComment xmi:id="_jO6HcGTbEeuczYMPqhlYvw" annotatedElement="_1zxRIGTYEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/ButtonStateTracker.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_cCeA0GTZEeuczYMPqhlYvw" name="StartTracking" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cCeA0WTZEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cCeA0mTZEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_glT54GTZEeuczYMPqhlYvw" name="ButtonIsHeld" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_glUg8GTZEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_glUg8WTZEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_i8IAQGTZEeuczYMPqhlYvw" name="StopTracking" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i8IAQWTZEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i8InUGTZEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_W06W0GTZEeuczYMPqhlYvw" name="Update"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9xeHgGTYEeuczYMPqhlYvw" memberEnd="_9xeHgWTYEeuczYMPqhlYvw _9xeHhGTYEeuczYMPqhlYvw" navigableOwnedEnd="_9xeHhGTYEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_9xeHgWTYEeuczYMPqhlYvw" name="buttonStateTrackers" type="_1zxRIGTYEeuczYMPqhlYvw" association="_9xeHgGTYEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9xeHgmTYEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9xeHg2TYEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_9xeHhGTYEeuczYMPqhlYvw" name="idPlayers" type="_9ctg0GTKEeuczYMPqhlYvw" association="_9xeHgGTYEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9xeHhWTYEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9xeHhmTYEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YW8C4GTcEeuczYMPqhlYvw" name="CGrabber" visibility="public">
+    <ownedComment xmi:id="_6ET8cGTcEeuczYMPqhlYvw" annotatedElement="_YW8C4GTcEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Grabber.h</body>
+    </ownedComment>
+    <ownedOperation xmi:id="_nr_SkGTiEeuczYMPqhlYvw" name="Clear"/>
+    <ownedOperation xmi:id="_uoJMYGTiEeuczYMPqhlYvw" name="Update"/>
+    <ownedOperation xmi:id="_wc9Y8GTiEeuczYMPqhlYvw" name="Save"/>
+    <ownedOperation xmi:id="_x_hX4GTiEeuczYMPqhlYvw" name="Restore"/>
+    <ownedOperation xmi:id="_znW4YGTiEeuczYMPqhlYvw" name="Spawn"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fWXTIGTcEeuczYMPqhlYvw" name="idEntity" visibility="public">
+    <ownedComment xmi:id="_5WZtkGTcEeuczYMPqhlYvw" annotatedElement="_fWXTIGTcEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Grabber.h&#xD;
+&#xD;
+https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Misc.h</body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_vswdUGTdEeuczYMPqhlYvw" name="PutInHands" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vsxEYGTdEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vsxEYWTdEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ER3gIGTeEeuczYMPqhlYvw" name="StopDrag" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ER4HMGTeEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ER4HMWTeEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TNRIcGTeEeuczYMPqhlYvw" name="UseEquipped" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TNRIcWTeEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TNRIcmTeEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Y5o1YGTeEeuczYMPqhlYvw" name="ObjStuck" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y5o1YWTeEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y5o1YmTeEeuczYMPqhlYvw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ruGPYGTdEeuczYMPqhlYvw" name="Update"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kXfqsGTcEeuczYMPqhlYvw" memberEnd="_kXfqsWTcEeuczYMPqhlYvw _kXfqtGTcEeuczYMPqhlYvw" navigableOwnedEnd="_kXfqtGTcEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_kXfqsWTcEeuczYMPqhlYvw" name="idEntitys" type="_fWXTIGTcEeuczYMPqhlYvw" association="_kXfqsGTcEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kXfqsmTcEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kXfqs2TcEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_kXfqtGTcEeuczYMPqhlYvw" name="idPlayers" type="_9ctg0GTKEeuczYMPqhlYvw" association="_kXfqsGTcEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kXfqtWTcEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kXgRwGTcEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oCsxIGTcEeuczYMPqhlYvw" memberEnd="_oCsxIWTcEeuczYMPqhlYvw _oCtYMmTcEeuczYMPqhlYvw" navigableOwnedEnd="_oCtYMmTcEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_oCsxIWTcEeuczYMPqhlYvw" name="idEntitys" type="_fWXTIGTcEeuczYMPqhlYvw" association="_oCsxIGTcEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oCtYMGTcEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oCtYMWTcEeuczYMPqhlYvw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_oCtYMmTcEeuczYMPqhlYvw" name="cGrabbers" type="_YW8C4GTcEeuczYMPqhlYvw" aggregation="composite" association="_oCsxIGTcEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oCtYM2TcEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oCtYNGTcEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JV56YGThEeuczYMPqhlYvw" name="idItem" visibility="public">
+    <ownedComment xmi:id="_jbFTgGThEeuczYMPqhlYvw" annotatedElement="_JV56YGThEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Item.h</body>
+    </ownedComment>
+    <ownedOperation xmi:id="_cK8GsGThEeuczYMPqhlYvw" name="Save"/>
+    <ownedOperation xmi:id="_gVNuwGThEeuczYMPqhlYvw" name="Restore"/>
+    <ownedOperation xmi:id="_zDLCsGThEeuczYMPqhlYvw" name="Event_DropToFloor" visibility="private"/>
+    <ownedOperation xmi:id="_X4eWgGTiEeuczYMPqhlYvw" name="Event_Gib" visibility="private"/>
+    <ownedOperation xmi:id="_Z_jXwGTiEeuczYMPqhlYvw" name="Gib" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MNucEGThEeuczYMPqhlYvw" memberEnd="_MNucEWThEeuczYMPqhlYvw _MNucFGThEeuczYMPqhlYvw" navigableOwnedEnd="_MNucFGThEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_MNucEWThEeuczYMPqhlYvw" name="idItems" type="_JV56YGThEeuczYMPqhlYvw" association="_MNucEGThEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MNucEmThEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MNucE2ThEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_MNucFGThEeuczYMPqhlYvw" name="idEntitys" type="_fWXTIGTcEeuczYMPqhlYvw" association="_MNucEGThEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MNucFWThEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MNucFmThEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_F7zOMGTlEeuczYMPqhlYvw" name="idPortalSky" visibility="public">
+    <ownedComment xmi:id="_P2WLwGTlEeuczYMPqhlYvw" annotatedElement="_F7zOMGTlEeuczYMPqhlYvw">
+      <body>https://github.com/mdeguzis/tdm/blob/a65ec9fc67ddcc59174044cf15e37d04ed75f48a/game/Misc.h</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ID2f0GTlEeuczYMPqhlYvw" memberEnd="_ID3G4GTlEeuczYMPqhlYvw _ID3G42TlEeuczYMPqhlYvw" navigableOwnedEnd="_ID3G42TlEeuczYMPqhlYvw">
+    <ownedEnd xmi:id="_ID3G4GTlEeuczYMPqhlYvw" name="idPortalSkys" type="_F7zOMGTlEeuczYMPqhlYvw" association="_ID2f0GTlEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ID3G4WTlEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ID3G4mTlEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ID3G42TlEeuczYMPqhlYvw" name="idEntitys" type="_fWXTIGTcEeuczYMPqhlYvw" association="_ID2f0GTlEeuczYMPqhlYvw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ID3G5GTlEeuczYMPqhlYvw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ID3G5WTlEeuczYMPqhlYvw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
